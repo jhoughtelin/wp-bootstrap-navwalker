@@ -1,5 +1,6 @@
 {
   "name": "twittem/wp-bootstrap-navwalker",
+  "type": "library",
   "description": "A custom WordPress nav walker class to fully implement the Bootstrap 3.0+ navigation style in a custom theme using the WordPress built in menu manager.",
   "keywords": [
     "css",
@@ -15,5 +16,8 @@
   "support": {
     "issues": "https://github.com/twittem/wp-bootstrap-navwalker/issues"
   },
-  "license": "GPL-2.0+"
+  "license": "GPL-2.0+",
+  "autoload": {
+    "files": [ "wp_bootstrap_navwalker.php" ]
+  }
 }
